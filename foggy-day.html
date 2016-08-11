@@ -3,7 +3,6 @@
   position:relative;
   width:400px;
   height:400px;
-
 }
 #Layer_1 {
 position:absolute;
@@ -13,10 +12,10 @@ left:40px;
 fill:rgba(246,215,25, 1);
 }
 #fog {
-	position:absolute;
+    position:absolute;
   width:400px;
   height:400px;
-  fill: rgba(211, 239, 248, 0.9);
+  background: rgba(211, 239, 248, 0.9);
   
 }
 </style>
@@ -123,5 +122,5 @@ fill:rgba(246,215,25, 1);
 <script>
   $("#Layer_1").velocity({  rotateZ: "+=360" }, { duration: 8500,easing: "linear", loop: true});
 
-$("#fog").velocity("fadeIn", {duration:7000, loop:true})
+$("#fog").velocity("fadeIn", {duration:17000, loop:true})
 </script>
