@@ -22,9 +22,14 @@ $(document).ready(function() {
         if (minutes <= 9) {
           minutes = "0" + minutes
         }
+        if ((hours <= 5) || (hours >= 20)) {
+          $("body").css("background", "radial-gradient(#033d5e 30%, #00111e)").css("color", "white")
+        }
+
         return hours + ":" + minutes
       }
       $("#time").html(time);
+
       var originalT = weather.main.temp
       $("#temperature").html(originalT);
       $("#fahrenheit").html(originalT * 1.8 + 32);
