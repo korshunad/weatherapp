@@ -1,0 +1,162 @@
+<style>
+  .icon {
+  position:absolute;
+  width:400px;
+  height:400px;
+
+}
+#moon {
+position:absolute;
+width:200px;
+bottom:80px;
+left:60px;
+fill:#f6d719;
+}
+#Capa_1 {
+  
+  width:300px;
+  position:absolute;
+  left:100px;
+  bottom:10px;
+  fill:#859ba3;
+
+}
+#star1 {
+  position:absolute;
+width:15px;
+left:330px;
+bottom:60px;
+fill:#f6d719;
+}
+#star2 {
+  position:absolute;
+width:50px;
+left:290px;
+bottom:270px;
+fill:#f6d719;
+}
+#star3 {
+  position:absolute;
+width:40px;
+left:140px;
+bottom:330px;
+fill:#f6d719;
+}
+#star4 {
+  position:absolute;
+width:30px;
+left:330px;
+bottom:190px;
+fill:#f6d719;
+}
+#star5 {
+  position:absolute;
+width:70px;
+left:190px;
+bottom:220px;
+fill:#f6d719;
+}
+#star6 {
+  position:absolute;
+width:25px;
+left:260px;
+bottom:90px;
+fill:#f6d719;
+}
+#star7 {
+  position:absolute;
+width:60px;
+left:40px;
+bottom:50px;
+fill:#f6d719;
+}
+#star8 {
+  position:absolute;
+width:35px;
+left:180px;
+bottom:30px;
+fill:#f6d719;
+}
+#star9 {
+  position:absolute;
+width:35px;
+left:25px;
+bottom:230px;
+fill:#f6d719;
+}
+</style>
+<div class="icon">
+  <div>
+    
+  </div>
+  <div>
+<svg id="moon"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve"><g><path style="" d="M76.978,69.324c-25.586,0-46.313-20.74-46.313-46.314c0-8.422,2.417-16.211,6.348-23.01   C15.686,6.152,0,25.586,0,48.889C0,77.111,22.876,100,51.099,100C74.402,100,93.848,84.302,100,62.988   C93.188,66.906,85.4,69.324,76.978,69.324z" /></g></svg>
+</div>
+  <div>
+  <svg id="star1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+    <svg id="star2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+    <svg id="star3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+    <svg id="star4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+    <svg id="star5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+      <svg id="star6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+      <svg id="star7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+      <svg id="star8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+        <svg id="star9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 50 62.5" enable-background="new 0 0 50 50" xml:space="preserve"><path d="M28.5,6.6l4.5,9.2l10.1,1.5c3.2,0.5,4.5,4.4,2.2,6.6L38,31L39.7,41c0.5,3.2-2.8,5.6-5.6,4.1l-9-4.7l-9,4.7  c-2.9,1.5-6.2-0.9-5.6-4.1L12,31l-7.3-7.1c-2.3-2.3-1-6.2,2.2-6.6L17,15.7l4.5-9.2C22.9,3.7,27.1,3.7,28.5,6.6z"/></svg>
+  </div>
+  <div class="cloud"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 60" xml:space="preserve" height="300" width="300">
+<path d="M25,46H10.845C4.865,46,0,41.135,0,35.154C0,31,2.705,26.688,6.433,24.901L7,24.63V24c0-0.127,0.008-0.256,0.015-0.386
+	l0.009-0.16l-0.012-0.21C7.006,23.163,7,23.082,7,23c0-3.859,3.141-7,7-7c0.309,0,0.614,0.027,0.917,0.067
+	c0.078,0.01,0.156,0.023,0.233,0.036c0.267,0.044,0.53,0.102,0.789,0.177c0.035,0.01,0.071,0.017,0.106,0.027
+	c0.285,0.087,0.563,0.197,0.835,0.321c0.071,0.032,0.14,0.067,0.21,0.101c0.24,0.119,0.475,0.249,0.702,0.396
+	C19.719,18.373,21,20.538,21,23c0,0.553,0.447,1,1,1s1-0.447,1-1c0-2.754-1.246-5.219-3.2-6.871C22.667,12.379,27.388,10,32.085,10
+	c7.745,0,14.177,6.135,14.848,13.888c-1.022-0.072-2.552-0.109-4.083,0.124c-0.546,0.083-0.921,0.593-0.838,1.139
+	c0.075,0.495,0.501,0.85,0.987,0.85c0.05,0,0.101-0.004,0.151-0.012c2.227-0.337,4.548-0.021,4.684-0.002
+	C52.49,26.872,56,31.161,56,35.972C56,41.501,51.501,46,45.972,46H33H25z"/>
+
+</svg>
+
+</div>
+</div>
+<script>
+  
+$("#Layer_1").velocity({  rotateZ: "+=360" }, { duration: 25000, easing: "linear", loop: true});
+
+function left() {
+  $("#Capa_1").velocity(
+    { 
+      translateX: "-=65"
+    },
+    { 
+      duration: 7000,
+      delay: 0,
+      easing: "ease-out",
+      complete: left
+    });
+}
+left();
+function right() {
+  $("#Capa_1").velocity(
+    { 
+      translateX: "+=65"
+    },
+    { 
+      duration: 7000,
+      delay: 0,
+      easing: "ease-out",
+      complete: right
+    });
+}
+right();
+$("#star1").velocity("fadeIn", { duration: 3500, loop:true })
+$("#star2").velocity("fadeIn", { duration: 3500, loop:true})
+$("#star3").velocity("fadeIn", { duration: 4500, loop:true, delay:1000 })
+$("#star4").velocity("fadeIn", { duration: 4500, loop:true, delay:1000})
+$("#star5").velocity("fadeIn", { duration: 3500, loop:true })
+$("#star6").velocity("fadeIn", { duration: 3500, loop:true})
+$("#star7").velocity("fadeIn", { duration: 4500, loop:true, delay:1000 })
+$("#star8").velocity("fadeIn", { duration: 4500, loop:true, delay:1000})
+$("#star9").velocity("fadeIn", { duration: 4500, loop:true, delay:1000})
+
+</script>
