@@ -1,4 +1,4 @@
-<head>
+
   <style>
   .icon {
     position: relative;
@@ -26,8 +26,6 @@
   }
 </style>
 
-</head>
-<body>
 <div class="icon">
   <div class="sun">
     <?xml version="1.0" encoding="iso-8859-1"?>
@@ -165,4 +163,4 @@
     }
     right();
   </script>
-  </body>
+  
