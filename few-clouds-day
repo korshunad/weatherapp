@@ -4,8 +4,7 @@
     position: absolute;
     width: 400px;
     height: 400px;
-    background: radial-gradient(ellipse at center, #fff 0, #d3eff8 100%);
-    background-image: radial-gradient(at 50% 50%, rgb(255, 255, 255) 0px, rgb(211, 239, 248) 100%);
+
   }
   
   #Layer_1 {
