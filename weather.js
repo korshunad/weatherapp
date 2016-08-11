@@ -8,21 +8,23 @@ $(document).ready(function() {
     var latitude = data["lat"];
 
     var longitude = data["lon"];
-    $.getJSON(apiCall+"lat="+latitude+"&lon="+longitude+"&appid="+apiKey1+"&units=metric", function(weather) {
-      $("#data").html(latitude + "<br>" + longitude + "<br>" + JSON.stringify(weather));
-      $("#name").html(weather.name);
-      
+    $.getJSON(apiCall + "lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey1 + "&units=metric", function(weather) {
+      $("#data").html(JSON.stringify(weather));
+      $("#name").html(weather.name + ", " + data.country);
+
       var time = function getTime() {
         var d = new Date();
         var hours = d.getHours();
-        var minutes= d.getMinutes();
-        if (hours<=9) {
-          hours="0"+hours
-        }  if (minutes<=9) {
-          minutes="0"+minutes          
-        }  return hours+":"+minutes
+        var minutes = d.getMinutes();
+        if (hours <= 9) {
+          hours = "0" + hours
+        }
+        if (minutes <= 9) {
+          minutes = "0" + minutes
+        }
+        return hours + ":" + minutes
       }
-$("#time").html(time);
+      $("#time").html(time);
       var originalT = weather.main.temp
       $("#temperature").html(originalT);
       $("#fahrenheit").html(originalT * 1.8 + 32);
@@ -35,11 +37,10 @@ $("#time").html(time);
 
       $("#wind").html(weather.wind.speed);
       $("#condition").html(weather.weather[0]["description"]);
-      $("#icon").html("https://codepen.io/korshunad/pen/WxYKXb")
+
     });
   });
 });
-
 
 
 
