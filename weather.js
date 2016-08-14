@@ -2,9 +2,9 @@ $(document).ready(function() {
   var apiKey1 = "4b1c8017264752f6f90fcc05bafab9a2",
     apiKey2 = "a9b63f948801578d5925caeff50b2058",
     apiKey3 = "1085d275b2bea5470ec7b1358fcec551";
-  var apiCall = "http://api.openweathermap.org/data/2.5/weather?";
+  var apiCall = "http://cors.io/?u=http://api.openweathermap.org/data/2.5/weather?";
 
-  $.getJSON("http://ip-api.com/json", function(data) {
+  $.getJSON("http://cors.io/?u=http://ip-api.com/json", function(data) {
     var latitude = data["lat"];
 
     var longitude = data["lon"];
