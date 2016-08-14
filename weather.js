@@ -4,7 +4,7 @@ $(document).ready(function() {
     apiKey3 = "1085d275b2bea5470ec7b1358fcec551";
   var apiCall = "http://api.openweathermap.org/data/2.5/weather?";
 
-  $.getJSON("https://ip-api.com/json", function(data) {
+  $.getJSON("http://ip-api.com/json", function(data) {
     var latitude = data["lat"];
 
     var longitude = data["lon"];
